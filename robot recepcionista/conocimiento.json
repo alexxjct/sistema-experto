@@ -1,0 +1,351 @@
+{
+  "carrera": {
+    "nombre": "Ingeniería Mecatrónica",
+    "facultad": "Facultad de Ingeniería (FI-UNAM)",
+    "duracion": "10 semestres (5 años)",
+    "plan_estudios": "https://www.ingenieria.unam.mx/mecatronica/plan_estudios.html",
+    "perfil_ingreso": "Interés en matemáticas, física, programación y sistemas mecatrónicos."
+  },
+  "requisitos": {
+    "tipo_ingreso": "Indirecto (a través del tronco común de ingeniería)",
+    "proceso": [
+      "1. Cursar y aprobar el tronco común de la Facultad de Ingeniería.",
+      "2. Obtener un promedio mínimo de [X] en el tronco común.",
+      "3. Presentar una carta de motivos solicitando el ingreso a la carrera de Ingeniería Mecatrónica.",
+      "4. Cumplir con los requisitos adicionales que establezca la Coordinación de la carrera."
+    ],
+    "tronco_comun": {
+      "nombre": "Tronco Común de Ingenierías",
+      "materias_clave": [
+        "Cálculo Diferencial e Integral",
+        "Álgebra Lineal",
+        "Física General",
+        "Química"
+      ]
+    },
+    "carta_motivos": {
+      "formato": "Libre, pero debe incluir una justificación clara del interés en la carrera y las habilidades del solicitante.",
+      "criterios_evaluacion": [
+        "Claridad y coherencia de la argumentación.",
+        "Interés genuino en la mecatrónica.",
+        "Habilidades y conocimientos relevantes."
+      ]
+    },
+    "coordinacion": {
+      "contacto": "Coordinación de la Carrera de Ingeniería Mecatrónica (FI-UNAM)",
+      "ubicacion": "[Ubicación física de la coordinación]",
+      "informacion_adicional": "Consultar la página web de la carrera para obtener información actualizada sobre los requisitos y el proceso de selección."
+    }
+  },
+  "quiz": {
+    "descripcion": "Este quiz te ayudará a evaluar tus conocimientos en áreas clave para la Ingeniería Mecatrónica.",
+    "preguntas": [
+      {
+        "id": 1,
+        "texto": "¿Cómo evalúas tus conocimientos de cálculo diferencial e integral?",
+        "opciones": [
+          "Básicos (solo conozco las reglas básicas)",
+          "Intermedios (puedo resolver problemas sencillos)",
+          "Avanzados (puedo resolver problemas complejos y aplicar el cálculo a otras áreas)"
+        ],
+        "area": "matemáticas",
+        "correcta": 2
+      },
+      {
+        "id": 2,
+        "texto": "¿Qué experiencia tienes con la programación?",
+        "opciones": [
+          "Ninguna",
+          "He programado en lenguajes básicos (ej: Scratch)",
+          "He programado en lenguajes como Python o C++",
+          "Tengo experiencia en programación orientada a objetos"
+        ],
+        "area": "programación",
+        "correcta": 3
+      },
+      {
+        "id": 3,
+        "texto": "¿Cómo te sientes con la física?",
+        "opciones": [
+          "Me resulta difícil",
+          "Entiendo los conceptos básicos",
+          "Puedo resolver problemas de física",
+          "Me apasiona la física"
+        ],
+        "area": "física",
+        "correcta": 2
+      },
+      {
+        "id": 4,
+        "texto": "¿Qué tan familiarizado estás con los circuitos eléctricos?",
+        "opciones": [
+          "No sé nada sobre circuitos",
+          "Conozco los componentes básicos (resistencias, condensadores, etc.)",
+          "Puedo analizar circuitos sencillos",
+          "Puedo diseñar circuitos complejos"
+        ],
+        "area": "electrónica",
+        "correcta": 2
+      },
+      {
+        "id": 5,
+        "texto": "¿Qué entiendes por 'sistema de control'?",
+        "opciones": [
+          "No sé qué es eso",
+          "Es un sistema que regula algo",
+          "Es un sistema que utiliza retroalimentación para mantener una variable en un valor deseado",
+          "Puedo diseñar sistemas de control complejos"
+        ],
+        "area": "control",
+        "correcta": 2
+      },
+      {
+        "id": 6,
+        "texto": "¿Qué habilidades tienes en diseño mecánico?",
+        "opciones": [
+          "Ninguna",
+          "Puedo hacer dibujos técnicos básicos",
+          "Puedo usar software CAD (ej: AutoCAD)",
+          "Puedo diseñar y fabricar piezas mecánicas"
+        ],
+        "area": "mecánica",
+        "correcta": 2
+      }
+    ],
+    "recomendaciones": {
+      "matemáticas": "Asistir al curso de nivelación de matemáticas de la facultad.",
+      "programación": "Tomar el curso de introducción a la programación en Python.",
+      "física": "Repasar los conceptos básicos de física con el libro 'Física Universitaria' de Sears y Zemansky.",
+      "electrónica": "Tomar el curso de 'Circuitos Eléctricos' de la facultad.",
+      "control": "Leer el libro 'Sistemas de Control Moderno' de Dorf y Bishop.",
+      "mecánica": "Tomar el curso de 'Dibujo Técnico' de la facultad."
+    }
+  },
+  "profesores": {
+    "Garcia": {
+      "nombre": "Dr. Juan García Pérez",
+      "cubiculo": "205",
+      "edificio": "Edificio Principal",
+      "horario": {
+        "Lunes": "10:00 - 12:00",
+        "Miércoles": "14:00 - 16:00"
+      },
+      "materias": [
+        "Robótica Avanzada",
+        "Sistemas de Control",
+        "Inteligencia Artificial"
+      ],
+      "correo": "juan.garcia@fi.unam.mx",
+      "telefono": "55-5622-3000 ext. 12345"
+    },
+    "Lopez": {
+      "nombre": "Dra. Ana López Sánchez",
+      "cubiculo": "302",
+      "edificio": "Anexo de Ingeniería",
+      "horario": {
+        "Martes": "9:00 - 11:00",
+        "Jueves": "15:00 - 17:00"
+      },
+      "materias": [
+        "Circuitos Eléctricos",
+        "Electrónica Digital",
+        "Microelectrónica"
+      ],
+      "correo": "ana.lopez@fi.unam.mx",
+      "telefono": "55-5622-3000 ext. 54321"
+    },
+    "Martinez": {
+      "nombre": "Ing. Carlos Martínez Gómez",
+      "cubiculo": "110",
+      "edificio": "Laboratorios",
+      "horario": {
+        "Viernes": "11:00 - 13:00"
+      },
+      "materias": [
+        "Diseño Mecánico",
+        "Manufactura",
+        "CAD/CAM"
+      ],
+      "correo": "carlos.martinez@fi.unam.mx",
+      "telefono": "55-5622-3000 ext. 67890"
+    },
+    "Ramirez": {
+      "nombre": "Dra. Sofía Ramírez Vargas",
+      "cubiculo": "215",
+      "edificio": "Edificio Principal",
+      "horario": {
+        "Lunes": "14:00 - 16:00",
+        "Jueves": "9:00 - 11:00"
+      },
+      "materias": [
+        "Control Automático",
+        "Sistemas Dinámicos",
+        "Modelado y Simulación"
+      ],
+      "correo": "sofia.ramirez@fi.unam.mx",
+      "telefono": "55-5622-3000 ext. 24680"
+    },
+    "Hernandez": {
+      "nombre": "Dr. Luis Hernández Torres",
+      "cubiculo": "105",
+      "edificio": "Anexo de Ingeniería",
+      "horario": {
+        "Martes": "11:00 - 13:00",
+        "Viernes": "14:00 - 16:00"
+      },
+      "materias": [
+        "Electrónica de Potencia",
+        "Accionamientos Eléctricos",
+        "Energías Renovables"
+      ],
+      "correo": "luis.hernandez@fi.unam.mx",
+      "telefono": "55-5622-3000 ext. 13579"
+    },
+    "Perez": {
+      "nombre": "Ing. María Pérez Jiménez",
+      "cubiculo": "310",
+      "edificio": "Laboratorios",
+      "horario": {
+        "Miércoles": "9:00 - 11:00",
+        "Viernes": "15:00 - 17:00"
+      },
+      "materias": [
+        "Diseño Asistido por Computadora",
+        "Elementos Finitos",
+        "Ingeniería de Materiales"
+      ],
+      "correo": "maria.perez@fi.unam.mx",
+      "telefono": "55-5622-3000 ext. 98765"
+    },
+    "Sanchez": {
+      "nombre": "Dr. Pedro Sánchez Díaz",
+      "cubiculo": "220",
+      "edificio": "Edificio Principal",
+      "horario": {
+        "Martes": "14:00 - 16:00",
+        "Jueves": "11:00 - 13:00"
+      },
+      "materias": [
+        "Robótica Móvil",
+        "Visión Artificial",
+        "Aprendizaje por Refuerzo"
+      ],
+      "correo": "pedro.sanchez@fi.unam.mx",
+      "telefono": "55-5622-3000 ext. 45678"
+    }
+  },
+  "posgrados_unam": {
+    "robotica": {
+      "nombre": "Maestría en Ingeniería Mecatrónica (Robótica y Sistemas Inteligentes)",
+      "instituto": "Posgrado de Ingeniería Mecánica - UNAM",
+      "requisitos": {
+        "promedio_minimo": 8.0,
+        "materias_requeridas": ["Control", "Programación", "Robótica"],
+        "ingles": "Nivel B2 (TOEFL 550)"
+      },
+      "perfil_ideal": {
+        "intereses": ["robots", "inteligencia artificial", "automatización"],
+        "habilidades": ["programación", "matemáticas", "diseño mecánico"]
+      }
+    },
+    "control": {
+      "nombre": "Maestría en Ingeniería (Sistemas de Control)",
+      "instituto": "Posgrado de Ingeniería Eléctrica - UNAM",
+      "requisitos": {
+        "promedio_minimo": 7.5,
+        "materias_requeridas": ["Control Clásico", "Matemáticas Avanzadas"],
+        "ingles": "Nivel B1 (TOEFL 500)"
+      },
+      "perfil_ideal": {
+        "intereses": ["control automático", "optimización", "matemáticas aplicadas"],
+        "habilidades": ["modelado matemático", "simulación"]
+      }
+    },
+    "electronica": {
+      "nombre": "Maestría en Ciencias e Ingeniería Eléctrica (Electrónica)",
+      "instituto": "Posgrado de Ciencia e Ingeniería Eléctrica - UNAM",
+      "requisitos": {
+        "promedio_minimo": 8.0,
+        "materias_requeridas": ["Electrónica", "Circuitos", "Señales"],
+        "ingles": "Nivel B2 (TOEFL 550)"
+      },
+      "perfil_ideal": {
+        "intereses": ["microelectrónica", "sistemas embebidos", "electrónica de potencia"],
+        "habilidades": ["diseño de circuitos", "programación", "física"]
+      }
+    },
+    "energia": {
+      "nombre": "Maestría en Ingeniería (Energía)",
+      "instituto": "Posgrado en Ingeniería - UNAM",
+      "requisitos": {
+        "promedio_minimo": 7.0,
+        "materias_requeridas": ["Termodinámica", "Transferencia de Calor", "Mecánica de Fluidos"],
+        "ingles": "Nivel A2 (TOEFL 450)"
+      },
+      "perfil_ideal": {
+        "intereses": ["energías renovables", "eficiencia energética", "sistemas energéticos"],
+        "habilidades": ["termodinámica", "mecánica de fluidos", "análisis de sistemas"]
+      }
+    },
+    "manufactura": {
+      "nombre": "Maestría en Ingeniería (Ingeniería de Manufactura)",
+      "instituto": "Posgrado en Ingeniería - UNAM",
+      "requisitos": {
+        "promedio_minimo": 7.0,
+        "materias_requeridas": ["Procesos de Manufactura", "Diseño de Experimentos", "Estadística"],
+        "ingles": "Nivel A2 (TOEFL 450)"
+      },
+      "perfil_ideal": {
+        "intereses": ["automatización de procesos", "optimización de la producción", "diseño de herramientas"],
+        "habilidades": ["diseño mecánico", "programación", "estadística"]
+      }
+    }
+  },
+  "quiz_posgrados": {
+    "preguntas": [
+      {
+        "id": 1,
+        "texto": "¿Qué área te interesa más?",
+        "opciones": [
+          "Diseño de robots autónomos",
+          "Sistemas de control industrial",
+          "Electrónica avanzada",
+          "Energías renovables",
+          "Automatización de procesos"
+        ],
+        "pesos": {
+          "robotica": 2,
+          "control": 1,
+          "electronica": 0,
+          "energia": 0,
+          "manufactura": 0
+        }
+      },
+      {
+        "id": 2,
+        "texto": "¿En qué habilidades destacas?",
+        "opciones": [
+          "Programación en Python/C++",
+          "Modelado matemático",
+          "Diseño CAD",
+          "Electrónica digital",
+          "Análisis de sistemas energéticos"
+        ],
+        "pesos": {
+          "robotica": 2,
+          "control": 1,
+          "electronica": 1,
+          "energia": 0,
+          "manufactura": 0
+        }
+      }
+    ],
+    "recomendaciones": {
+      "robotica": "Maestría en Ingeniería Mecatrónica (Robótica) - Ideal para tu perfil técnico y de programación.",
+      "control": "Maestría en Sistemas de Control - Perfecta si te interesa la teoría de control aplicada.",
+      "electronica": "Maestría en Ingeniería Eléctrica - Recomendada si prefieres electrónica.",
+      "energia": "Maestría en Ingeniería (Energía) - Si te apasionan las energías renovables y la eficiencia energética.",
+      "manufactura": "Maestría en Ingeniería (Ingeniería de Manufactura) - Si te interesa la automatización y optimización de procesos."
+    }
+  }
+}
